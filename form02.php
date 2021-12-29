@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>HTML02</title>
+<head>  
+    <title>63160256 form2</title>
 </head>
 
 <body>
-    
-    <b><font size="20">ขนาดอักษร 20px</font></b>
-    <br>
-    <font color=red> สีตัวอักษร เป็นสีแดง</font>
-    <br>
-    <font face="Tahamo"> ใช้ font Tahoma</font>
-    <br>
-    <b>ตัวอักษรหนา</b>
-    <br>
-    <i>ตัวอักษรเอียง</i>
-    <br>
-    <u>ขีดเส้นใต้ตัวอักษร</u>
-    <br>
-    <h3>ขนาดตัวอักษร h3</h3>
-    <h2>ขนาดตัวอักษร h2</h2>
-    <h1>ขนาดตัวอักษร h1</h1>
+    <form name=info>
+        เรียนอยู่สาขา : <br>
+        <input type="text"/>
+        <br>
+        <br>
+
+        สัตว์เลี้ยงที่ชอบมากที่สุด : 
+        <select>
+            <option value=1>สิงโต
+            <option value=2>เสือ
+            <option value=3>แมว
+        </select>
+        <br>
+        <br>
+
+        ข้อเสนอแนะ : <br>
+        <textarea></textarea>
+        <br>
+        <br>
+
+        <input type="reset" value=ยกเลิก />
+        <input type="submit" value=บันทึก />
+    </form>
+
 </body>
 
 </html>
